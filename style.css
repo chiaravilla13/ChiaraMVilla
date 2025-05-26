@@ -1,0 +1,62 @@
+/* Stile di base */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 2em;
+    text-align: center;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2em;
+    gap: 2em;
+}
+
+.bio .profilo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.galleria {
+    padding: 2em;
+    background-color: #fff;
+}
+
+.foto-griglia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.foto-griglia figure {
+    flex: 1 1 30%;
+    margin: 0;
+}
+
+.foto-griglia img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    background-color: #f1f1f1;
+}
