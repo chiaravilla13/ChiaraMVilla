@@ -21,10 +21,10 @@ header {
     gap: 2em;
 }
 
-.bio .profilo {column-count: 3;
+.bio .profilo {column-count: 2;
 width: 150px;
     border-radius: 50%;}
-.tre-colonne {column-count: 3;
+.tre-colonne {column-count: 2;
               column-gap: 2em;
               text-align: justify;
               padding: 2em;
