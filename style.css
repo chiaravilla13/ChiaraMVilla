@@ -21,9 +21,14 @@ header {
     gap: 2em;
 }
 
-.bio .profilo {
-    width: 150px;
-    border-radius: 50%;
+.bio .profilo {column-count: 3;
+width: 150px;
+    border-radius: 50%;}
+.tre-colonne {column-count: 3;
+              column-gap: 2em;
+              text-align: justify;
+              padding: 2em;
+    
 }
 
 .galleria {
