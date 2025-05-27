@@ -3,61 +3,54 @@ body {font-family: 'karla', sans-serif; line-height: 1.6; margin: 0;
 background-color: #f5f1e9;/*beige chiaro*/;
     color: #000; /*testo nero*/}
 
-header {
-    background-color: #e9e1d1; /*Un po' più scuro per separare l'intestazione*/
-    padding: 20px;
-    text-align: center;
-}
+header {background-color: #e9e1d1; /*Un po' più scuro per separare l'intestazione*/
+padding: 20px;
+text-align: center;}
 
-.bio {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 2em;
-    gap: 2em;
-}
+h1 {
+      margin: 0;
+    }
 
-.bio .profilo {column-count: 2;
-width: 150px;
-    border-radius: 50%;}
-.tre-colonne {column-count: 2;
-              column-gap: 2em;
-              text-align: justify;
-              padding: 2em;
-    
-}
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 30px;
+    }
 
-.galleria {
-    padding: 2em;
-    background-color: #fff;
-}
+    .image-gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
 
-.foto-griglia {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-}
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
 
-.foto-griglia figure {
-    flex: 1 1 30%;
-    margin: 0;
-}
+    .text-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
 
-.foto-griglia img {
-    width: 100%;
-    border-radius: 8px;
-}
+    .text-box {
+      background-color: #fff; /* Riquadro bianco */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 300px;
+      font-size: 16px;
+    }
 
-figcaption {
-    text-align: center;
-    font-size: 0.9em;
-    margin-top: 0.5em;
-    color: #666;
-}
-
-footer {
-    text-align: center;
-    padding: 1em;
-    font-size: 0.9em;
-    background-color: #f1f1f1;
-}
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e9e1d1;
+      font-size: 14px;
+    }
