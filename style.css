@@ -1,15 +1,11 @@
 /* Stile di base */
-body {
-    font-family: 'Helvetica Neue', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    background-color: #fafafa;
-    color: #333;
-}
+body {font-family: 'karla', sans-serif; line-height: 1.6; margin: 0;
+background-color: #f5f1e9;/*beige chiaro*/;
+    color: #000; /*testo nero*/}
 
 header {
-    background-color: #f1f1f1;
-    padding: 2em;
+    background-color: #e9e1d1; /*Un po' più scuro per separare l'intestazione*/
+    padding: 20px;
     text-align: center;
 }
 
