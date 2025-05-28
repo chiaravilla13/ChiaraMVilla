@@ -7,7 +7,6 @@ background-color: #f5f1e9;/*beige chiaro*/;
 body {margin: 0;font-family: 'Poppins', sans-serif; background-color: #f5f1e9; color: #000; padding-top: 70px; /* per non coprire il contenuto col menu fisso */}
 
 header {
-      position: mobile;
       top: 0;
       width: 100%;
       background-color: #e9e1d1;
