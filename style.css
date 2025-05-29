@@ -1,5 +1,10 @@
 /* Stile di base */
-body {font-family: figtree; line-height: 1.6; margin: 0;
+body {
+.dm-sans-<uniquifier> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
 background-color: #f5f1e9;/*beige chiaro*/;
     textcolor: white; /*testo bianco*/}
  <style>
