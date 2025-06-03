@@ -22,8 +22,8 @@ header {
       z-index: 1000;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-h1{
-  background-color: white;
+h1 {
+  color:white;
 }
     .logo {
       font-family: 'Quicksand', sans-serif;
