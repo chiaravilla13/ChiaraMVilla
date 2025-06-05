@@ -8,15 +8,15 @@
 <meta name="description" content="blog personale di viaggi, fotografie e ispirazioni. Un posto dove  trovare idee, itinerari di viaggio e farmi domande">
 <meta name="author" content="Chiara Villa">
 <meta name="keywords"content="viaggi, fotografia, blog, ispirazione, portfolio, itinerario, vacanze, consigli, Italia, Europa, Mondo">
-<meta property="og:title" content="il mio blog di viaggio">
-<meta property="og:description" content="un sito personale con fotografie e racconti dal mondo">
+<meta property="og:title" content="Chi sono">
+<meta property="og:description" content="Una breve descrizione di chi sono, cosa faccio e dove vado">
 <meta property="og:image" content="https://via.placeholder.com/1200x630">
 <meta property="og:type" content="website">
 	<!--font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-<title>Punto e Viaggio</title>
+<title>About Me</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
