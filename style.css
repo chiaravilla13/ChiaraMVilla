@@ -1,32 +1,51 @@
-/* Stile di base */
 body {
-.dm-sans-<uniquifier> {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;}
-background-color: #f5f1e9;/*beige chiaro*/;
-    text-color: dark brown; /*testo marrone scuro*/}
- <style>
-    html {scroll-behavior: smooth;}
-body {margin: 0;font-family: 'Poppins', sans-serif; background-color: #f5f1e9; color: #2c1d0b; /* per non coprire il contenuto col menu fisso */}
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-header {
-      top: 0;
-      width: 100px; height:100px
-      background-color:#c0ab90; 
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
-      z-index: 1000;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.navbar {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  background-color: #f9f9f9;
 }
-h1 {
-  color:white;
+
+.navbar li {
+  margin: 10px;
 }
-    .logo {
-      font-family: 'Quicksand', sans-serif;
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.image-gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile-first responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-boxes {
+    display: block;
+    padding: 10px;
+  }
+
+  .text-box {
+    margin-bottom: 15px;
+  }
+}nd', sans-serif;
       font-weight: 600;
       font-size: 20px; }
 
