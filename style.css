@@ -6,7 +6,7 @@ body {
   font-weight: <weight>;
   font-style: normal;}
 background-color: #f5f1e9;/*beige chiaro*/;
-    textcolor: white; /*testo bianco*/}
+    textcolor: dark brown; /*testo bianco*/}
  <style>
     html {scroll-behavior: smooth;}
 body {margin: 0;font-family: 'Poppins', sans-serif; background-color: #f5f1e9; color: #2c1d0b; /* per non coprire il contenuto col menu fisso */}
