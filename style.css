@@ -103,13 +103,14 @@ blockquote {
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #e9e1d1;
+      background-color: #5973A8;
       font-size: 14px;  }
 
     @media (max-width: 600px) {
       nav a {
         margin-left: 10px;
-        font-size: 14px; }
+        font-size: 14px;
+      text-color:#F9507A;}
 
       .text-box { width: 90%;  }}
  
