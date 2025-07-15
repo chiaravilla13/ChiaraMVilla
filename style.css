@@ -72,6 +72,11 @@ blockquote {
     section {
       padding: 60px 20px;
       text-align: center; }
+  h1 {
+      font-family: 'raleway', sans-serif;
+      font-size: 30px;
+      margin-bottom: 32px;
+    font-color: #5973A8}
 
     h2 {
       font-family: 'raleway', sans-serif;
