@@ -57,12 +57,12 @@ blockquote {
     nav a {
       margin-left: 20px;
       text-decoration: none;
-      color: #e9e1d1;
+      color: #5973A8;
       font-weight: 500;
       transition: color 0.3s; }
 
     nav a:hover {
-      color: #7c5e3c;}
+      color: #F9507A;}
 
     section {
       padding: 60px 20px;
