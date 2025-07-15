@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF1ED !important;
+  background-color: #FFD1DC !important;
   margin: 0;
   padding: 0;
 }
@@ -11,7 +11,7 @@ body {
   font-style: normal;
 }
 .navbar {
-  color:#5973A8 !important; 
+  color:#FFD1DC !important; 
   list-style: none;
   display: flex;
   flex-wrap: wrap;
