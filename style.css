@@ -1,10 +1,15 @@
 body {
   background-color: #FFF1ED !important;
-  font-family: 'DM Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
 
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 .navbar {
   color:#5973A8 !important; 
   list-style: none;
